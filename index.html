@@ -36,8 +36,9 @@
 			
 	        <div class="col-md-6"  v-for="(movie, i) in movies">
 	            <div class="thumbnail">
-
+						<!--Click it to switch posters-->
 						<img class="poster img-fluid" @click="posterClick(movie)" :src="movie.posters[movie.posterindex]"/>
+						<!--Brings up the number of movies and calls it based on position in the array-->
 						<div class="imageInfo">Poster {{ movies[i].posterindex + 1 }} out of {{ movies[i].posters.length }}
 						</div>
 

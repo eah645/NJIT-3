@@ -44,6 +44,7 @@ const vue_app = Vue.createApp({
     /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
     getMonthText(dateArray) {
       let month = "";
+      /*Depending on which number month it converts it to word */
       switch (dateArray[1]) {
         case 1:
           month = "January";
@@ -81,14 +82,17 @@ const vue_app = Vue.createApp({
         case 12:
           month = "December";
       }
+      /*Returns string in html */
       return month + " " + dateArray[2] + ", " + dateArray[0];
     },
+    /*Code to make movie go through different posters */
     posterClick(movie) {
       movie.posterindex++;
       if (movie.posterindex > movie.posters.length - 1) {
         movie.posterindex = 0;
       }
     },
+    /*Changes number to minutes and hours */
     timeText(minutes) {
       //https://codingbeautydev.com/blog/javascript-convert-minutes-to-hours-and-minutes/
       var hours = Math.floor(minutes / 60);
