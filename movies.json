@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "My Hero Academia: Two Heroes",
+            "iscore": 7.4,
+            "rating": "PG-13",
+            "runtime": 96,
+            "released": [2018, 7, 5],
+            "country": "USA",
+            "posters": ["img/MHATwoHeroes1.jpg", "img/MHATwoHeroes2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt7745068/",
+            "website": "https://myheroacademia.fandom.com/wiki/My_Hero_Academia:_Two_Heroes",
+            "likes": 2005,
+            "dislikes": 354,
+            "posterindex": 0
+      },
+      {
+            "title": "My Hero Academia: Heroes Rising",
+            "iscore": 7.8,
+            "rating": "PG-13",
+            "runtime": 104,
+            "released": [2019, 12, 20],
+            "country": "USA",
+            "posters": ["img/MHAHeroesRising1.jpg", "img/MHAHeroesRising2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt11107074/?ref_=nv_sr_srsg_0",
+            "website": "https://myheroacademia.fandom.com/wiki/My_Hero_Academia:_Heroes:_Rising",
+            "likes": 4076,
+            "dislikes": 278,
+            "posterindex": 0
+      },
+      {
+            "title": "My Hero Academia: World Heroes",
+            "iscore": 7.1,
+            "rating": "PG-13",
+            "runtime": 101,
+            "released": [2021, 10, 29],
+            "country": "USA",
+            "posters": ["img/MHAWorldHeroes1.jpg", "img/MHAWorldHeroes2.webp"],
+            "imdb": "https://www.imdb.com/title/tt13544716/?ref_=nv_sr_srsg_0",
+            "website": "https://myheroacademia.fandom.com/wiki/My_Hero_Academia:_World_Heroes%27_Mission",
+            "likes": 5000,
+            "dislikes": 578,
+            "posterindex": 0
       }
 ]
